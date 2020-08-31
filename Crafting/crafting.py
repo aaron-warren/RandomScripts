@@ -7,7 +7,7 @@ from process import PID
 
 flags.DEFINE_string('keys', None, 'path for keys')
 flags.DEFINE_integer('amount', None, 'number of iterations')
-flags.DEFINE_string('food', None, "hotkey for food")
+flags.DEFINE_string('food', None, "hotkey for food") # Food does not work properly, will fix later.
 
 class Actions:
     def __init__(self, delay, key):
